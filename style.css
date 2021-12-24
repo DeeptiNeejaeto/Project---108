@@ -1,0 +1,43 @@
+body
+{
+    font-family: 'Meow Script', cursive;
+    background: lightcyan;
+}
+
+.header_div
+{
+    background: #FFAFBD;  
+    background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  
+    background: linear-gradient(to right, #ffc3a0, #FFAFBD); 
+    color: black;
+}
+
+.header_div p{
+    font-family: cursive;
+    color: gray;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main_div button
+{
+    font-family: cursive;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.copy_right_footer
+{
+    position: fixed;
+    color: purple;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: oldlace;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(151 , 149, 149);
+}
